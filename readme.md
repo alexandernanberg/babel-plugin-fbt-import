@@ -49,9 +49,7 @@ function App() {
   return (
     <div>
       <h1>
-        {fbt._('Hello', null, {
-          hk: '26EFWw',
-        })}
+        <fbt desc="Greeting">Hello</fbt>
       </h1>
     </div>
   )
