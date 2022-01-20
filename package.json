@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-fbt-import",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "babel-plugin-fbt": "^0.20.3",
+    "babel-plugin-fbt-runtime": "^0.9.18",
+    "eslint": "^8.6.0",
+    "eslint-config-alexandernanberg": "^3.2.0",
+    "jest": "^27.4.7",
+    "prettier": "^2.5.1"
+  }
+}
